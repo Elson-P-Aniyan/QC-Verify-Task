@@ -60,7 +60,7 @@
   transition: 0.5s;
 }
 .sidebar{
-  position: fixed;
+  position: sticky;
   z-index: 3;
 }
 main{

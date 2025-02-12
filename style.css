@@ -1,0 +1,71 @@
+/* style code */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", serif;
+}
+:root {
+    --mainclr: #267F71;
+    --secondaryclr: #C38A2F;
+}
+.logoname{ 
+    color: var(--mainclr);
+}    
+.navbar-toggler {
+    padding: 0.25rem 0.5rem; 
+    font-size: 1rem;
+  }
+
+
+  .navbar-toggler-icon {
+    width: 1.2rem; 
+    height: 1.2rem; 
+  }
+ 
+  .o1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%;
+  }
+  #navoptions{
+    font-size: 14px;
+    color: rgb(103, 102, 113);
+    border-radius: 10px;
+  }
+  #navoptions.active{
+    color:white;
+    background-color: #267F71;
+  }
+  #navoptions:hover{
+    transition: .5s;
+    color: white;
+    background-color: var(--mainclr);
+  }
+
+  #upgradebtn{
+    color: var(--mainclr);
+    font-size: 12px;
+    top: 75%;
+    left: 50%;
+  }
+  #upgradebtn:hover{
+    background-color: var(--mainclr);
+    color: white;
+    transition: .5s;
+  }
+
+.input-group-text:hover{
+  color: var(--mainclr);
+  transition: 0.5s;
+}
+.sidebar{
+  position: sticky;
+}
+main{
+  overflow-y: auto;
+}
+#imginfo{
+  left: 54%;
+  top: 50%;
+}

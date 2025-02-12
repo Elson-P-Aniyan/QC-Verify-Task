@@ -1,4 +1,4 @@
-As in the given timeframe, almost the design is compeleted as given.
+As in the given timeframe (24hr), almost the design is compeleted as given.
 All images were reconstructed in figma for using in the webpage
 
 Bootstrap Grid Layouts:
